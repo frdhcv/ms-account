@@ -1,5 +1,6 @@
 package com.example.msaccount.dao.entity;
 
+import com.example.msaccount.dto.UserDto;
 import com.example.msaccount.enums.AccountStatus;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -44,5 +45,6 @@ public class AccountEntity {
 
     @Column(length = 3)
     private String cvv;
+
 
 }

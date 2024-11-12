@@ -11,7 +11,7 @@ import org.mapstruct.MappingTarget;
 
 import java.util.List;
 
-@Mapper
+@Mapper(componentModel = "spring")
 public interface AccountMapper {
 //    AccountMapper INSTANCE = Mappers.getMapper(AccountMapper.class);
 
